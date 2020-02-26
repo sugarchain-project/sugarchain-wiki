@@ -1,7 +1,7 @@
 * 入门
 
   * [技术细节](zh-cn/spec.md)
-  * [团队成员](zh-cn/team.md)
+  * [团队成员](/zh-cn/team.md)
   * [交 易 所](zh-cn/exchange.md)
   * [矿 池](zh-cn/pools.md)
   * [社 区](zh-cn/community.md)

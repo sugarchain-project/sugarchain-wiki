@@ -8,3 +8,6 @@
 - 30x faster than Litecoin
 - 12x faster than Dogecoin
 
+[GitHub](https://github.com/sugarchain-project/sugarchain)
+[Download](wallet.md)
+

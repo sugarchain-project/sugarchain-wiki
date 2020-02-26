@@ -1,4 +1,4 @@
-Pool Operators
+Pools
   - 1pool | 2pool: https://1pool.sugarchain.org/ | https://2pool.sugarchain.org/
     * cryptozeny: Owner
     * okoto-xyz: Bech32
