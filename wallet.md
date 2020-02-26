@@ -1,6 +1,7 @@
 ## Web Wallet
 
-[https://sugarchain.org/wallet]
+Site: https://sugarchain.org/wallet
+
 ----------------
 
 ## Mobile Wallet
@@ -15,7 +16,7 @@
 
 #### ** iOS **
 
-Has not been released
+Not released yet.
 
 <!-- tabs:end -->
 ----------------
