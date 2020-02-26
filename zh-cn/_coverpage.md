@@ -8,3 +8,6 @@
 - 比 Litecoin 快30倍
 - 比 Dogecoin 快12倍
 
+[GitHub](https://github.com/sugarchain-project/sugarchain)
+[下载](wallet.md)
+

@@ -24,17 +24,36 @@
       name: 'Sugarchain',
       repo: '',
       loadSidebar: true,
-      subMaxLevel: 2,
+      subMaxLevel: 4,
       auto2top: true,
       coverpage: true,
       themeColor: '#0F68AA',
       loadNavbar: true,
-      tabs: {
-        // persist    : true,      // default
-        // sync       : true,      // default
-        // theme      : 'classic', // default
-        // tabComments: true,      // default
-        // tabHeadings: true       // default
+      "flexible-alerts": {
+        note: {
+          label: {
+            '/zh-cn/': '备忘',
+            '/': 'Note'
+          }
+        },
+        tip: {
+          label: {
+            '/zh-cn/': '提醒',
+            '/': 'Tip'
+          }
+        },
+        warning: {
+          label: {
+            '/zh-cn/': '警告',
+            '/': 'Warning'
+          }
+        },
+        danger: {
+          label: {
+            '/zh-cn/': '危险',
+            '/': 'Attention'
+          }
+        }
       },
       search: {
         noData: {
@@ -55,5 +74,6 @@
   <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
 </body>
 </html>
