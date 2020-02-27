@@ -4,6 +4,7 @@
   * [Team](team.md)
   * [Exchanges](exchange.md)
   * [Pools](pools.md)
+  * [Explorer](https://1explorer.sugarchain.org/)
   * [Community](community.md)
   * [Donations](donations.md)
   * [Forum](https://forum.sugarchain.org/)
