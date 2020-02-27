@@ -3,7 +3,7 @@ Running a Sugarchain Node on Linux
 `64-bit` version is always recommended for best performance
 
 ## Minimum Requirement
-```bash
+```
 CPU: 1 core
 RAM: 1024 MB (at least 2048 MB swap)
 DISK: 3.65 GB
@@ -19,12 +19,12 @@ Optional UTF-8 and Timezone
 - URL: https://github.com/sugarchain-project/sugarchain/releases/latest
 - filename: `sugarchain-0.16.3.x-x86_64-linux-gnu.tar.gz`
 
-```bash
+```
 wget filename
 ```
 
 ## Verify & Unzip
-```bash
+```
 sha256sum filename # check if hash match
 tar -xvzf filename
 ```
@@ -39,7 +39,6 @@ crontab -e
 - Adding this line:
   * Remove `debug.log` at every reboot, to save disk space.
   * Starting node (daemon) at every reboot.
-
 ```bash
 # delete logs
 @reboot rm $HOME/.sugarchain/debug.log
@@ -49,7 +48,6 @@ crontab -e
 ```
 
 ## Firewall
-
 Open some ports for Sugarchain
   * `22`: SSH connection
   * `80`: Website (optional)
@@ -57,7 +55,7 @@ Open some ports for Sugarchain
   * `34230`: mainnet
   * `44230`: testnet (optional)
 
-```bash
+```
 sudo ufw allow 22 && \
 sudo ufw allow 80 && \
 sudo ufw allow 443 && \
