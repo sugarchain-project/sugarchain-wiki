@@ -10,7 +10,9 @@ Site: https://sugarchain.org/wallet
 
 #### ** Android **
 
-[Release-V.1.0-APK](https://github.com/sugarchain-project/android_wallet_sugarchain/releases/download/v1.0/Sugar-Wallet-Release-V.1.0.apk)
+Version: V.1.0<sup style="color:red">(new)<sup>
+
+[Download APK](https://github.com/sugarchain-project/android_wallet_sugarchain/releases/download/v1.0/Sugar-Wallet-Release-V.1.0.apk)
 ([Github](https://github.com/sugarchain-project/android_wallet_sugarchain))
 
 
@@ -23,7 +25,7 @@ Not released yet.
 
 ## Desktop Wallet
 
-- Yumekawa v0.16.3.29rc5-071adf9
+- Version: Yumekawa v0.16.3.29rc5-071adf9
 
 <!-- tabs:start -->
 

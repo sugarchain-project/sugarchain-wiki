@@ -3,14 +3,17 @@
   * [技术细节](zh-cn/spec.md)
   * [团队成员](/zh-cn/team.md)
   * [交 易 所](zh-cn/exchange.md)
-  * [矿 池](zh-cn/pools.md)
-  * [社 区](zh-cn/community.md)
+  * [矿  池](zh-cn/pools.md)
+  * [区块浏览器](https://1explorer.sugarchain.org/)
+  * [社  区](zh-cn/community.md)
+  * [捐  献](zh-cn/donations.md)
+  * [论  坛](https://forum.sugarchain.org/)
 
 * 下载
 
-  * [钱包](zh-cn/wallet.md)
-  * [挖矿](zh-cn/miner.md)
-  * [其它](zh-cn/download-other.md)
+  * [钱  包](zh-cn/wallet.md)
+  * [挖  矿](zh-cn/miner.md)
+  * [其  它](zh-cn/download-other.md)
 
 * 指南
 
@@ -18,4 +21,3 @@
   * [SEED](zh-cn/seed.md)
   * [Bootstrap](bootstrap.md)
 
-* [Changelog](changelog.md)
