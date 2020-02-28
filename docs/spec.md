@@ -101,7 +101,7 @@ Appendix
 
 - Nonce distribution at first launching on testnet 
   * The nonce is randomly well distributed. Difficulty changes but no bias. [(log: nonce-diff)](https://github.com/sugarchain-project/website/blob/master/log/nonce_vs_difficulty-13548.log)
-  * ![Nonce vs Difficulty](images/nonce_vs_difficulty.png)
+  * ![Nonce vs Difficulty](_images/nonce_vs_difficulty.png)
 
 License
 -------

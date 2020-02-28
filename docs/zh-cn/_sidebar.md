@@ -19,5 +19,7 @@
 
   * [开放节点](zh-cn/opennode.md)
   * [SEED](zh-cn/seed.md)
-  * [Bootstrap](bootstrap.md)
+  * [Bootstrap](zh-cn/bootstrap.md)
+
+* [活动日志](zh-cn/activity-log.md)
 

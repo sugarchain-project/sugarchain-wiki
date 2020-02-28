@@ -25,29 +25,29 @@ Not released yet.
 
 ## Desktop Wallet
 
-- Version: Yumekawa v0.16.3.29rc5-071adf9
+- Version: Yumekawa **v{{wallet.version}}**<sup style="color:red">(new)<sup>
 
 <!-- tabs:start -->
 
 #### ** Windows **
 
-Win64: [Download](https://github.com/sugarchain-project/sugarchain/releases/download/v0.16.3.29rc5-071adf9/sugarchain-0.16.3.29rc5-071adf9-win64-setup-unsigned.exe)
+Win64: [Download](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.version}}/sugarchain-{{wallet.version}}-win64-setup-unsigned.exe)
 
-Win32: [Download](https://github.com/sugarchain-project/sugarchain/releases/download/v0.16.3.29rc5-071adf9/sugarchain-0.16.3.29rc5-071adf9-win32-setup-unsigned.exe)
+Win32: [Download](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.version}}/sugarchain-{{wallet.version}}-win32-setup-unsigned.exe)
 
 #### ** Mac **
 
-[Download](https://github.com/sugarchain-project/sugarchain/releases/download/v0.16.3.29rc5-071adf9/sugarchain-0.16.3.29rc5-071adf9-osx-unsigned.dmg)
+[Download](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.version}}/sugarchain-{{wallet.version}}-osx-unsigned.dmg)
 
 #### ** Linux **
 
-x86-64: [Download](https://github.com/sugarchain-project/sugarchain/releases/download/v0.16.3.29rc5-071adf9/sugarchain-0.16.3.29rc5-071adf9-x86_64-linux-gnu.tar.gz)
+x86-64: [Download](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.version}}/sugarchain-{{wallet.version}}-x86_64-linux-gnu.tar.gz)
 
-i686-pc: [Download](https://github.com/sugarchain-project/sugarchain/releases/download/v0.16.3.29rc5-071adf9/sugarchain-0.16.3.29rc5-071adf9-i686-pc-linux-gnu.tar.gz)
+i686-pc: [Download](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.version}}/sugarchain-{{wallet.version}}-i686-pc-linux-gnu.tar.gz)
 
-ARM: [Download](https://github.com/sugarchain-project/sugarchain/releases/download/v0.16.3.29rc5-071adf9/sugarchain-0.16.3.29rc5-071adf9-arm-linux-gnueabihf.tar.gz)
+ARM: [Download](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.version}}/sugarchain-{{wallet.version}}-arm-linux-gnueabihf.tar.gz)
 
-AARCH64: [Download](https://github.com/sugarchain-project/sugarchain/releases/download/v0.16.3.29rc5-071adf9/sugarchain-0.16.3.29rc5-071adf9-aarch64-linux-gnu.tar.gz)
+AARCH64: [Download](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.version}}/sugarchain-{{wallet.version}}-aarch64-linux-gnu.tar.gz)
 
 
 
