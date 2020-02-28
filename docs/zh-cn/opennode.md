@@ -1,29 +1,30 @@
-Running a Sugarchain Node on Linux
+在 Linux 上运行 Sugarchain 节点
 ----------------------------------
-`64-bit` version is always recommended for best performance
 
-## Minimum Requirement
+Sugarchain节点仅为帮助全节点钱包加快数据同步速度，出于对性能的考虑，我们强烈推荐您使用`64位`版本软件。
+
+## 最低配置
 ```
 CPU: 1 core
-RAM: 1024 MB (at least 2048 MB swap)
-DISK: 3.65 GB
+内存: 1024 MB (至少2048 MB swap)
+硬盘: 3.65 GB
 ```
 
-If you have only `1024 MB RAM`, you may need at least `2048 MB swap`.
+可选项: 如果你仅有1024M内存，那你需要为系统额外设置一个2048M的swap.
 - SWAP: https://github.com/sugarchain-project/doc/blob/master/swap.md
 
-Optional UTF-8 and Timezone
+可选项: 'UTF-8' 与 '时区'
 - https://github.com/sugarchain-project/doc/blob/master/UTF%2Btimezone.md
 
-## Download
+## 下载
 - URL: https://github.com/sugarchain-project/sugarchain/releases/latest
-- filename: `sugarchain-0.16.3.x-x86_64-linux-gnu.tar.gz`
+- 文件名: `sugarchain-0.16.3.x-x86_64-linux-gnu.tar.gz`
 
 ```
 wget filename
 ```
 
-## Verify & Unzip
+## 校验 & 解压
 ```
 sha256sum filename # check if hash match
 tar -xvzf filename
@@ -31,14 +32,15 @@ tar -xvzf filename
 
 ## Crontab
 
-- Run crontab
+- 运行 crontab
 ```bash
 crontab -e
 ```
 
-- Adding this line:
-  * Remove `debug.log` at every reboot, to save disk space.
-  * Starting node (daemon) at every reboot.
+- 添加以下内容:
+  * 在每次启动时删除 `debug.log` 以减少硬盘占用.
+  * 在系统启动时以`后台驻留`方式启动开放节点.
+
 ```bash
 # delete logs
 @reboot rm $HOME/.sugarchain/debug.log
@@ -47,23 +49,17 @@ crontab -e
 @reboot $HOME/sugarchain-0.16.3/bin/sugarchaind -server=1 -rpcuser=rpcuser -rpcpassword=rpcpassword -daemon
 ```
 
-## Firewall
-Open some ports for Sugarchain
-  * `22`: SSH connection
-  * `80`: Website (optional)
-  * `443`: SSL (optional)
-  * `34230`: mainnet
-  * `44230`: testnet (optional)
+## 防火墙
+为Sugarchain开放一些防火墙端口
+  * `34230`: Sugarchain主网
+  * `44230`: 测试网 (可选)
 
 ```
-sudo ufw allow 22 && \
-sudo ufw allow 80 && \
-sudo ufw allow 443 && \
 sudo ufw allow 34230 && \
 sudo ufw allow 44230 && \
 sudo ufw enable && \
 sudo ufw status
 ```
 
-## CLI commands
+## CLI命令
 https://github.com/sugarchain-project/doc/blob/master/cli.md

@@ -39,6 +39,7 @@ crontab -e
 - Adding this line:
   * Remove `debug.log` at every reboot, to save disk space.
   * Starting node (daemon) at every reboot.
+  
 ```bash
 # delete logs
 @reboot rm $HOME/.sugarchain/debug.log
@@ -49,16 +50,10 @@ crontab -e
 
 ## Firewall
 Open some ports for Sugarchain
-  * `22`: SSH connection
-  * `80`: Website (optional)
-  * `443`: SSL (optional)
   * `34230`: mainnet
   * `44230`: testnet (optional)
 
 ```
-sudo ufw allow 22 && \
-sudo ufw allow 80 && \
-sudo ufw allow 443 && \
 sudo ufw allow 34230 && \
 sudo ufw allow 44230 && \
 sudo ufw enable && \

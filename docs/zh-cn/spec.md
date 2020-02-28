@@ -17,7 +17,7 @@ Sugarchain's first node software is called `Yumekawa (夢川)`. It can be transl
 |||
 | ---- | ---- |
 |出块时间: | `5` seconds |
-|难度算法: | SugarShield-N510 (基于Zcash's Digishield修改版 )|
+|难度算法: | SugarShield-N510 (基于Zcash's的Digishield修改版 )|
 |出块奖励: | `42.94967296` SUGAR|
 |减半间隔: | `12,500,000` 个区块 (约 2 年)|
 |总释放量: | `1,073,741,824` SUGAR|
@@ -54,8 +54,8 @@ Sugarchain's first node software is called `Yumekawa (夢川)`. It can be transl
   * `1073741824 SUGAR` in theory, and `1073741823.875 SUGAR` in actual.
   * The difference is `0.125 SUGAR`. One Satoshi (0.00000001) limitation makes this difference. In addition, this number is meaningful. FYI: `1 GB = 1073741824 Byte (2^30)`.
   * The total supply of Sugarchain is about `51 times` greater than Bitcoin.
-- Halving Chart: ![Halving Chart](_images/halving_chart.png)
-- Halving Table: ![Halving Table](_images/halving_table.png)
+- Halving Chart: ![Halving Chart](../_images/halving_chart.png)
+- Halving Table: ![Halving Table](../_images/halving_table.png)
 
 
 每CPU一票
@@ -97,11 +97,11 @@ FAQ
 --------
 - Block time vs difficulty at first launching on testnet
   * To keep the block time 5 seconds, SugarShield-N510 adjusts the difficulty level. Unlike the Zcash's modification version, we use a moving average of `510 blocks` (about 42.5 minutes). It counts from block 1, an adjustment is made at block 511, and the actual control begins at block 512. [(log: time-diff)](https://github.com/sugarchain-project/website/blob/master/log/time_vs_difficulty-13536.log)
-  * ![Blocktime vs Difficulty](_images/time_vs_difficulty.png)
+  * ![Blocktime vs Difficulty](../_images/time_vs_difficulty.png)
 
 - Nonce distribution at first launching on testnet 
   * The nonce is randomly well distributed. Difficulty changes but no bias. [(log: nonce-diff)](https://github.com/sugarchain-project/website/blob/master/log/nonce_vs_difficulty-13548.log)
-  * ![Nonce vs Difficulty](images/nonce_vs_difficulty.png)
+  * ![Nonce vs Difficulty](../_images/nonce_vs_difficulty.png)
 
 许可授权
 -------
