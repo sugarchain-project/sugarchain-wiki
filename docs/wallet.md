@@ -66,13 +66,13 @@ AARCH64: [Download](https://github.com/sugarchain-project/sugarchain/releases/do
 >
 >### Change data location
 >
->Registry location:
+>- Registry location:
 >
 >```bash
 >\HKEY_CURRENT_USER\Software\Sugarchain\Sugarchain-Qt\StrDataDir
 >```
 >
->Or you can start sugarchaind with the flag below, to have it ask again as per initial installation:
+>- Or you can start sugarchaind with the flag below, to have it ask again as per initial installation:
 >
 >```bash
 >-choosedatadir

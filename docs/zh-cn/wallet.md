@@ -55,7 +55,7 @@ AARCH64: [下载](https://github.com/sugarchain-project/sugarchain/releases/down
 
 >[!Note]
 >
->### 默认数据目录:
+>### 默认数据目录
 >
 >Windows: /Uers/%UserName%/AppData/Roaming/Sugarchain
 >
@@ -65,13 +65,13 @@ AARCH64: [下载](https://github.com/sugarchain-project/sugarchain/releases/down
 >
 >### 更改数据保存目录
 >
->注册表:
+>- 注册表:
 >
 >```
 >\HKEY_CURRENT_USER\Software\Sugarchain\Sugarchain-Qt\StrDataDir
 >```
 >
->或在第一次启动sugarchaind时添加以下参数，这样程序会询问你目录保存位置
+>- 或在第一次启动sugarchaind时添加以下参数，这样程序会询问你目录保存位置
 >
 >```
 >-choosedatadir
