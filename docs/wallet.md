@@ -55,13 +55,28 @@ AARCH64: [Download](https://github.com/sugarchain-project/sugarchain/releases/do
 <!-- tabs:end -->
 
 >[!Note]
->Default data folder locations:
+>
+>### Default data folder locations
 >
 >Windows: /Uers/%UserName%/AppData/Roaming/Sugarchain
 >
 >Mac: ~/Library/Application\ Support/Sugarchain
 >
 >Linux: ~/.sugarchain
+>
+>### Change data location
+>
+>Registry location:
+>
+>```bash
+>\HKEY_CURRENT_USER\Software\Sugarchain\Sugarchain-Qt\StrDataDir
+>```
+>
+>Or you can start sugarchaind with the flag below, to have it ask again as per initial installation:
+>
+>```bash
+>-choosedatadir
+>```
 
 ----------------
 
