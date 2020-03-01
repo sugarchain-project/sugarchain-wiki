@@ -12,7 +12,7 @@
 * 下载
 
   * [钱  包](zh-cn/wallet.md)
-  * [挖  矿](zh-cn/miner.md)
+  * [挖  矿](zh-cn/mining.md)
   * [其  它](zh-cn/download-other.md)
 
 * 指南

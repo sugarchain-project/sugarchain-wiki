@@ -12,7 +12,7 @@
 * Download
 
   * [Wallet](wallet.md)
-  * [Miner](miner.md)
+  * [Mining](mining.md)
   * [Other](download-other.md)
 
 * Guides

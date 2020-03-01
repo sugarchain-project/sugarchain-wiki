@@ -21,6 +21,7 @@
 尚未发布.
 
 <!-- tabs:end -->
+
 ----------------
 
 ## 电脑钱包
@@ -49,9 +50,18 @@ ARM: [下载](https://github.com/sugarchain-project/sugarchain/releases/download
 
 AARCH64: [下载](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.version}}/sugarchain-{{wallet.version}}-aarch64-linux-gnu.tar.gz)
 
-
-
 <!-- tabs:end -->
+
+
+>[!Note]
+>默认数据目录:
+>
+>Windows: /Uers/%UserName%/AppData/Roaming/Sugarchain
+>
+>Mac: ~/Library/Application\ Support/Sugarchain
+>
+>Linux: ~/.sugarchain
+
 ----------------
 
 ## 纸钱包

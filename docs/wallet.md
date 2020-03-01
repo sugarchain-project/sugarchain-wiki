@@ -21,6 +21,7 @@ Version: V.1.0<sup style="color:red">(new)<sup>
 Not released yet.
 
 <!-- tabs:end -->
+
 ----------------
 
 ## Desktop Wallet
@@ -52,6 +53,16 @@ AARCH64: [Download](https://github.com/sugarchain-project/sugarchain/releases/do
 
 
 <!-- tabs:end -->
+
+>[!Note]
+>Default data folder locations:
+>
+>Windows: /Uers/%UserName%/AppData/Roaming/Sugarchain
+>
+>Mac: ~/Library/Application\ Support/Sugarchain
+>
+>Linux: ~/.sugarchain
+
 ----------------
 
 ## Paper wallet
