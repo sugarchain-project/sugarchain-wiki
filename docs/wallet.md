@@ -34,8 +34,6 @@ Not released yet.
 
 Win64: [Download](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.version}}/sugarchain-{{wallet.version}}-win64-setup-unsigned.exe)
 
-Win32: [Download](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.version}}/sugarchain-{{wallet.version}}-win32-setup-unsigned.exe)
-
 #### ** Mac **
 
 [Download](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.version}}/sugarchain-{{wallet.version}}-osx-unsigned.dmg)
@@ -56,7 +54,7 @@ AARCH64: [Download](https://github.com/sugarchain-project/sugarchain/releases/do
 
 >[!Note]
 >
->### Default data folder locations
+>#### Default data folder locations
 >
 >Windows: /Uers/%UserName%/AppData/Roaming/Sugarchain
 >
@@ -64,7 +62,7 @@ AARCH64: [Download](https://github.com/sugarchain-project/sugarchain/releases/do
 >
 >Linux: ~/.sugarchain
 >
->### Change data location
+>#### Change data location
 >
 >- Registry location:
 >

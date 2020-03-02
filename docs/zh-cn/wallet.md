@@ -34,8 +34,6 @@
 
 Win64: [下载](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.version}}/sugarchain-{{wallet.version}}-win64-setup-unsigned.exe)
 
-Win32: [下载](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.version}}/sugarchain-{{wallet.version}}-win32-setup-unsigned.exe)
-
 #### ** Mac **
 
 [下载](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.version}}/sugarchain-{{wallet.version}}-osx-unsigned.dmg)
@@ -55,7 +53,7 @@ AARCH64: [下载](https://github.com/sugarchain-project/sugarchain/releases/down
 
 >[!Note]
 >
->### 默认数据目录
+>#### 默认数据目录
 >
 >Windows: /Uers/%UserName%/AppData/Roaming/Sugarchain
 >
@@ -63,7 +61,7 @@ AARCH64: [下载](https://github.com/sugarchain-project/sugarchain/releases/down
 >
 >Linux: ~/.sugarchain
 >
->### 更改数据保存目录
+>#### 更改数据保存目录
 >
 >- 注册表:
 >
