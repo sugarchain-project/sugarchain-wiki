@@ -34,6 +34,8 @@ Not released yet.
 
 Win64: [Download](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.version}}/sugarchain-{{wallet.version}}-win64-setup-unsigned.exe)
 
+Win32: [Download](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.rc_version}}/sugarchain-{{wallet.rc_version}}-win32-setup-unsigned.exe)
+
 #### ** Mac **
 
 [Download](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.version}}/sugarchain-{{wallet.version}}-osx-unsigned.dmg)
@@ -42,11 +44,11 @@ Win64: [Download](https://github.com/sugarchain-project/sugarchain/releases/down
 
 x86-64: [Download](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.version}}/sugarchain-{{wallet.version}}-x86_64-linux-gnu.tar.gz)
 
-i686-pc: [Download](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.version}}/sugarchain-{{wallet.version}}-i686-pc-linux-gnu.tar.gz)
+i686-pc: [Download](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.rc_version}}/sugarchain-{{wallet.rc_version}}-i686-pc-linux-gnu.tar.gz)
 
-ARM: [Download](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.version}}/sugarchain-{{wallet.version}}-arm-linux-gnueabihf.tar.gz)
+ARM: [Download](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.rc_version}}/sugarchain-{{wallet.rc_version}}-arm-linux-gnueabihf.tar.gz)
 
-AARCH64: [Download](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.version}}/sugarchain-{{wallet.version}}-aarch64-linux-gnu.tar.gz)
+AARCH64: [Download](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.rc_version}}/sugarchain-{{wallet.rc_version}}-aarch64-linux-gnu.tar.gz)
 
 
 

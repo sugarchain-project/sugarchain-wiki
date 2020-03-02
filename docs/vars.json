@@ -1,5 +1,7 @@
 {
   "wallet": {
-    "version": "0.16.3.30-moonlight"
+    "version": "0.16.3.30-moonlight",
+    "rc_version": "0.16.3.29rc5-071adf9"
+
   }
 }

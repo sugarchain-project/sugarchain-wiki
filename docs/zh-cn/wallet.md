@@ -34,6 +34,10 @@
 
 Win64: [下载](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.version}}/sugarchain-{{wallet.version}}-win64-setup-unsigned.exe)
 
+Win32: [下载](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.rc_version}}/sugarchain-{{wallet.rc_version}}-win32-setup-unsigned.exe)
+
+
+
 #### ** Mac **
 
 [下载](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.version}}/sugarchain-{{wallet.version}}-osx-unsigned.dmg)
@@ -42,11 +46,11 @@ Win64: [下载](https://github.com/sugarchain-project/sugarchain/releases/downlo
 
 x86-64: [下载](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.version}}/sugarchain-{{wallet.version}}-x86_64-linux-gnu.tar.gz)
 
-i686-pc: [下载](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.version}}/sugarchain-{{wallet.version}}-i686-pc-linux-gnu.tar.gz)
+i686-pc: [下载](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.rc_version}}/sugarchain-{{wallet.rc_version}}-i686-pc-linux-gnu.tar.gz)
 
-ARM: [下载](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.version}}/sugarchain-{{wallet.version}}-arm-linux-gnueabihf.tar.gz)
+ARM: [下载](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.rc_version}}/sugarchain-{{wallet.rc_version}}-arm-linux-gnueabihf.tar.gz)
 
-AARCH64: [下载](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.version}}/sugarchain-{{wallet.version}}-aarch64-linux-gnu.tar.gz)
+AARCH64: [下载](https://github.com/sugarchain-project/sugarchain/releases/download/v{{wallet.rc_version}}/sugarchain-{{wallet.rc_version}}-aarch64-linux-gnu.tar.gz)
 
 <!-- tabs:end -->
 
